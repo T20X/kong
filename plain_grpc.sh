@@ -1,0 +1,1 @@
+grpcurl -v  -import-path /home/maine/kong/kong/python/grpc/examples/protos  -proto /home/maine/kong/kong/python/grpc/examples/protos/helloworld.proto  -plaintext 127.0.0.1:9080 helloworld.Greeter.SayHello
